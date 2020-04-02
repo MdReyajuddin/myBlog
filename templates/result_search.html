@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block body %}
+<center>
+<h2> You Search Result Is Here </h2><hr>
+{% for query in queryset %}
+<a href="#">{{query.title}}</a>
+<br><br>
+{% endfor %}
+    </center>
+<br><br><br>
+
+{% endblock %}
