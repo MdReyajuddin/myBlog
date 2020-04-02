@@ -11,7 +11,7 @@
               <!-- post -->
               {% for post in queryset %}
               <div class="post col-xl-6">
-                <div class="post-thumbnail"><a href="{{post.get_absolute_url}}"><img src="{{post.thumbnail.url}}" alt="..." class="img-fluid"></a></div>
+                <div class="post-thumbnail "><a href="{{post.get_absolute_url}}"><img src="{{post.thumbnail.url}}" alt="..." class="img-fluid img-thumbnail" style="height:300px;width:400px"></a></div>
                 <div class="post-details">
                   <div class="post-meta d-flex justify-content-between">
                     <div class="date meta-last">{{post.timestamp}}</div>
