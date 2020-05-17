@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_jenkins',
     
     'debug_toolbar',
     'crispy_forms',
@@ -194,3 +195,11 @@ DEBUG_TOOLBAR_CONFIG={
     'SHOW_TOOLBAR_CALLBACK': show_toolbar,
 
 }
+
+JENKINS_TASKS = (
+    'django_jenkins.tasks.run_pep8',
+    'django_jenkins.tasks.run_pyflakes',
+    'django_jenkins.tasks.run_jslint',
+    'django_jenkins.tasks.run_csslint',
+    'django_jenkins.tasks.run_sloccount'
+)
