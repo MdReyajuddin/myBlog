@@ -1,5 +1,5 @@
 ﻿amqp==2.5.2
-asgiref==3.2.5
+asgiref==3.2.3
 astroid==2.1.0
 autopep8==1.4.3
 awsebcli==3.17.1
