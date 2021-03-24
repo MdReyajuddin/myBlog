@@ -93,7 +93,7 @@ reportlab==3.5.34
 request==2019.4.13
 requests==2.20.1
 requests-oauthlib==1.2.0
-rsa==4.0
+rsa==4.1
 selenium==3.141.0
 semantic-version==2.5.0
 sentry-sdk==0.14.2
