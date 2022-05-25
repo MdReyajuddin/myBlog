@@ -78,7 +78,7 @@ pycparser==2.20
 pygame==1.9.6
 PyGithub==1.46
 Pygments==2.6.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.6
 Pyphen==0.9.5
 pypiwin32==223
